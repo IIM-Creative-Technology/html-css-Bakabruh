@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #260101;
+}
+
+.container {
+    width: 100%;
+}
+
+.bruh {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bruh .big-picture {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/bg-accueil.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.bruh .big-picture h1 {
+    text-align: center;
+    font-family: chuck, sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #F5CCC0;
+}
+
+.bruh .big-picture div {
+    width: 200px;
+    border: solid black 3px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.bruh .big-picture div a {
+    text-decoration: none;
+}
+
+.bruh .big-picture div:hover {
+    background-color: #46FAE3;
+    border: none;
+}
+
+.bruh .big-picture h2 {
+    text-align: center;
+    font-family: Alef, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.bruh .big-picture h2:hover {
+    color: #000;
+    font-size: 15px;
+}
+
+section {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #DB771C;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section div {
+    width: 500px;
+    margin: 40px 0;
+    padding: 20px;
+    border: solid #DBCA22 4px;
+    border-radius: 20px;
+}
+
+section div h2 {
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Balsamiq Sans";
+    color: #DB1709;
+}
+
+section div p {
+    font-family: 'Alef', sans-serif;
+    text-align: justify;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+
+footer div img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}

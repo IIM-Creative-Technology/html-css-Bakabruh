@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barre {
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barre .accueil {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.barre .accueil h1 {
+    color: #F5CCC0;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    margin: 0 50px;
+}
+
+.top {
+    width: 300px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 230px;
+    border-radius: 100px;
+}
+
+.top h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: chuck, sans-serif;
+    font-weight: lighter;
+}
+
+.global {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.global-classement {
+    display: flex;
+    width: 60%;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}
+
+.global-classement .classement {
+    width: 80%;
+    background-color: #202020;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px 0;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.global-classement .classement:hover {
+    box-shadow: 10px -10px #46FAE3;
+    transition: 0.3s;
+}
+
+.global-classement .classement img {
+    border-radius: 60px;
+}
+
+.global-classement .classement p {
+    font-family: 'Alef', sans-serif;
+    font-size: 2em;
+    align-self: center;
+    margin-left: 30px;
+    color: #F5CCC0;
+}
+
+.other-rank {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 300px;
+    height: 400px;
+    margin-top: 200px;
+    background-color: #404040;
+    border-radius: 70px;
+}
+
+.other-rank h2 {
+    font-family: 'Alef', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+.other-rank div {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0;
+}
+
+.other-rank div img {
+    border-radius: 60px;
+}
+
+.other-rank div p {
+    align-self: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin: 0 20px;
+}
